@@ -28,7 +28,7 @@ const configRoutes = () => {
     res.send("pong");
   });
 
-  app.get("/ping", (_req, res) => {
+  app.get("/ping2", (_req, res) => {
     res.send("pong2");
   });
 
